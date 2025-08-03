@@ -72,6 +72,7 @@ if df is not None:
         st.pyplot(fig2)
 
     # Credit Card Fraud-specific analysis
+     # Credit Card Fraud-specific analysis
     if dataset_name == "Credit Card Fraud Data" and "is_fraud" in df.columns:
         st.subheader("Fraud Analysis")
         fraud_count = df["is_fraud"].sum()
@@ -122,4 +123,5 @@ else:
     st.warning("No data loaded. Please check your file path or file format.")
 
 st.markdown("---")
+
 st.caption("Developed for interactive fraud data analysis.") 
