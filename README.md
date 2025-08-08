@@ -48,4 +48,5 @@ Then open the provided local URL in your browser (usually http://localhost:8501)
 
 ## Notes
 - The app is designed for interactive data exploration and visualization. No command-line interface is provided.
+
 - You can extend the app with more advanced analytics or machine learning as needed. 
